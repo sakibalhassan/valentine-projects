@@ -1,0 +1,137 @@
+/* commn css */
+.container {
+    width: 1170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*======================= nav styles========================= */
+.navbar {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar.navbar-nav {
+    column-gap: 27px;
+}
+
+.navbar.navbar-nav .nav-item .nav-link {
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #000;
+    transition: .4s;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d50a51;
+}
+
+.navbar-nav .nav-item .active {
+    color: #d50a51;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5px);
+    top: 100%;
+    opacity: 0;
+    transition: .4s;
+}
+
+.navbar-nav .nav-item .active img {
+    opacity: 1;
+}
+
+.navbar-nav .nav-item .nav-link:hover img {
+    opacity: 1;
+}
+
+.navbar .custom-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffff;
+    background: #d50a51;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.navbar .custom-btn i {
+    margin-right: 10px;
+}
+
+
+/* ================banner styles================== */
+#banner-part {
+    background: url(../images/header-bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 133px;
+}
+
+#banner-part .banner-img img {
+    margin-left: -46px;
+}
+
+#banner-part .text {
+    text-align: center;
+}
+
+#banner-part .text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    font-weight: 600;
+    color: #8a5e3b;
+    text-transform: uppercase;
+}
+
+#banner-part .text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    font-weight: 400;
+    color: #d50a51;
+    margin-top: -45px;
+}
+
+#banner-part .text p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    font-family: 'Lato', sans-serif;
+    margin: 35px 0 58px;
+}
+
+#banner-part .text a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #d50a51;
+    padding: 13px 19px;
+    border-radius: 50px;
+}
+
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
